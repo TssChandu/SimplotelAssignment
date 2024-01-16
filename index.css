@@ -1,0 +1,187 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+}
+
+.nav-bar {
+  width: 100%;
+  background-color: #ff7171;
+  height: 5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-list li {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 2rem;
+  letter-spacing: 0.5rem;
+}
+
+.menu-bar {
+  height: 4rem;
+  width: 4rem;
+}
+
+.section {
+  height: 90vh;
+  background-image: linear-gradient(to right, #fff7ad, #ffd1d2);
+}
+
+.section_1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.secton_1_content,
+.section_1_img {
+  width: 50%;
+}
+
+.section_1_img {
+  background-size: cover;
+}
+
+.secton_1_content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 4rem;
+}
+
+.main-hdng {
+  font-size: 4rem;
+  letter-spacing: 1rem;
+}
+
+.main-hdng,
+.para {
+  margin-bottom: 4rem;
+}
+
+.para {
+  font-size: 2rem;
+}
+
+.btn {
+  width: 15rem;
+  padding: 1rem;
+  border: none;
+  background-color: #ff7171;
+  color: #fff;
+}
+
+.section_2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 7rem;
+}
+
+.img-card,
+.side_square_imgs_card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  height: 60vh;
+}
+
+.img-card {
+  margin-right: 3.5rem;
+}
+
+.side_square_imgs_card {
+  flex-direction: column;
+  justify-content: space-between;
+  margin-right: 2rem;
+}
+
+.side_square_imgs {
+  width: 30rem;
+  height: 18rem;
+}
+
+.side_Rect_img {
+  height: 100%;
+  width: 30rem;
+}
+
+.content-card {
+  background-color: #ff7171;
+  padding: 2.5rem;
+}
+
+.arrow-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+p,
+h1 {
+  margin-bottom: 2rem;
+}
+
+p {
+  font-size: 1.5rem;
+}
+
+h1 {
+  font-size: 3.5rem;
+  letter-spacing: 1rem;
+}
+
+/* Responsive */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .section {
+    flex-direction: column;
+    height: 100%;
+  }
+  .secton_1_content,
+  .section_1_img {
+    width: 100%;
+  }
+  .img-card,
+  .side_square_imgs_card {
+    flex-direction: column;
+    height: 100%;
+  }
+  li {
+    display: none;
+  }
+  .nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+/* @media only screen and (min-width: 600px) {
+} */
+
+/* Large devices (laptops/desktops, 992px and up) */
+/* @media only screen and (min-width: 992px) {
+} */
